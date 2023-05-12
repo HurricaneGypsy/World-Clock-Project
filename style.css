@@ -1,7 +1,144 @@
 body {
-    background-color: rgb(214, 212, 212);
+    background-color: rgb(207, 205, 205);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/627/original/alexander-andrews-yOIT88xWkbg-unsplash.jpg?1683921645);
+    overflow: hidden;
 }
+
+.star {
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  background-color: white;
+  border-radius:none;
+  animation: shooting-star 3s ease-out infinite;
+}
+
+ .star:nth-child(1) {
+      top: 50px;
+      left: 100px;
+        animation-delay: 0;
+    animation-duration: 1s;
+    }
+
+    .star:nth-child(2) {
+      top: 150px;
+      left: 200px;
+        animation-delay: 0;
+    animation-duration: 1.5s;
+    }
+
+    .star:nth-child(3) {
+      top: 50px;
+      right: 100px;
+        animation-delay: 0;
+    animation-duration: 2s;
+    }
+
+    .star:nth-child(4) {
+      top: 150px;
+      right: 200px;
+        animation-delay: 0;
+    animation-duration: 2,5s;
+    }
+
+    .star:nth-child(5) {
+      top: 350px;
+      left: 300px;
+        animation-delay: 0;
+    animation-duration: 1.5s;
+    }
+
+     .star:nth-child(6) {
+      top: 225px;
+      left: 100px;
+        animation-delay: -0.4;
+    animation-duration: 1.5s;
+}
+
+ .star:nth-child(7) {
+      top: 250px;
+      right: 200px;
+        animation-delay: 0;
+    animation-duration: 1.5s;
+    }
+
+     .star:nth-child(8) {
+      top: 150px;
+      right: 200px;
+        animation-delay: 0.5;
+    animation-duration: 1.5s;
+    
+    }
+
+     .star:nth-child(9) {
+      top: 50px;
+      right: 300px;
+        animation-delay: 0;
+    animation-duration: 1s;
+    }
+
+    .star:nth-child(10) {
+      top: 700px;
+      right: 30px;
+        animation-delay: 0.2;
+    animation-duration: 1.5s;
+    }
+    .star:nth-child(10) {
+      top: 700px;
+      left: 30px;
+        animation-delay: 0.2;
+    animation-duration: 1.5s;
+    }
+
+    .star:nth-child(11) {
+      top: 700px;
+      right: 10px;
+        animation-delay: 0.2;
+    animation-duration: 2s;
+    }
+
+    .star:nth-child(12) {
+      top: 800px;
+      right: 20px;
+        animation-delay: 0.2;
+    animation-duration: 1.5s;
+    }
+
+    .star:nth-child(13) {
+      top: 600px;
+      right: 40px;
+        animation-delay: 0.1;
+    animation-duration: 1.5s;
+    }
+
+    .star:nth-child(14) {
+      top: 700px;
+      left: 50px;
+        animation-delay: 0;
+    animation-duration: 2s;
+    }
+    .star:nth-child(15) {
+      top: 700px;
+      right: 380px;
+        animation-delay: 0.2;
+    animation-duration: 1s;
+    }
+
+
+    
+
+@keyframes shooting-star {
+  from {
+    transform: translateX(0) translateY(0) scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(400px) translateY(400px) scale(0);
+    opacity: 0;
+  }
+}
+
 
 .container {
     max-width: 600px;
@@ -66,17 +203,13 @@ select {
      font-weight: 600;
 }
 
-h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 900;
-    font-size: xx-large;
-    color:#000000;
-    text-align: center;
-    text-decoration: underline;
-    text-shadow: 2px 2px #bfbbbb;
-}
-
 footer {
-    text-align: center;
-    font-style: inherit;
-    font-size: 13px;
+  text-align: center;
+  margin: 0 auto;
+  font-style: inherit;
+  font-size: 13px;
+  background: #f7f4f4;
+  max-width: fit-content;
+  border-radius: 5px;
+  line-height: 1.5;
 }
