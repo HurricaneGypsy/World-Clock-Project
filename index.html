@@ -15,7 +15,8 @@
       <h1>World Clock</h1>
 
       <select>
-        <option value="">Select a city..</option>
+        <!-- Create an option with an empty value as a placeholder -->
+        <option value="">Select a city 🌍</option>
         <option value="">Antarctica</option>
         <option value="">Bangkok</option>
         <option value="">Beijing</option>
@@ -39,24 +40,28 @@
       </select>
 
       <div class="city">
-        <h2>Los Angeles 🏈</h2>
+        <div>
+        <h2>Los Angeles <small>🏈</small></h2>
        <div class="date">May 12th 2023</div>
-        <div class="time">10.03am</div>
+       </div>
+         <div class="time">10:13:07 <small>AM</small></div> 
+       </div>
 
-        <h2>Kenya 🦁</h2>
+       <div class="city">
+        <div>
+        <h2>Kenya <small>🦁</small></h2>
        <div class="date">May 12th 2023</div>
-        <div class="time">10.03am</div> 
-
-      </div>
+       </div>
+         <div class="time">10:13:07 <small>AM</small></div> 
+       </div>
     </div>
-    <footer>
-      This project was coded by Pardip Kaur 👩🏽‍💻 and is
+     <!-- Add target_blank to open new tabs via links-->
+    <footer> 
+    This project was coded by <a href="https://www.linkedin.com/in/pardip-kaur-582944219/" target="_blank">Pardip Kaur</a> 👩🏽‍💻 and is
       <a
         href="https://github.com/HurricaneGypsy/World-Clock-Project"
-        target=""
-        blank
-        >open sourced on GitHub</a
-      >
+        target="_blank"
+        >open sourced on GitHub</a>
     </footer>
     <script src="index.js"></script>
   </body>

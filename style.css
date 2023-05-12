@@ -1,8 +1,82 @@
-h1 {
+body {
+    background-color: rgb(214, 212, 212);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    background-color: rgb(245, 245, 245);
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+    }
+
+    h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
     color:#000000;
     text-align: center;
     text-decoration: underline;
+    text-shadow: 2px 2px #bfbbbb; 
+    }
+
+    h2 {
+        margin:0;
+        line-height: 1.5;
+        font-size: 24px;
+    }
+
+.city {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 18px 0;
+    border-bottom: 1px dashed rgb(200, 184, 184);
 }
+
+.city:last-child {
+    border: none;
+}
+
+.date {
+    opacity: 0.6;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.time {
+    font-size:40px;
+    font-weight: bold;
+}
+.time small {
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: 34px;
+}
+
+
+select {
+    display: block;
+    width: 100%;
+    padding: 3px;
+     box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.5);
+     border-radius: 5px;
+     font-weight: 600;
+}
+
+h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    color:#000000;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px #bfbbbb;
+}
+
 footer {
     text-align: center;
+    font-style: inherit;
+    font-size: 13px;
 }
