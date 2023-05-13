@@ -198,13 +198,14 @@ body {
     color:#000000;
     text-align: center;
     text-decoration: underline;
-    text-shadow: 2px 2px #bfbbbb; 
+    text-shadow: 1.5px 1.5px #bfbbbb; 
     }
 
     h2 {
         margin:0;
         line-height: 1.5;
         font-size: 24px;
+        text-shadow: 1px 1px #bfbbbb; 
     }
 
 .city {
@@ -213,6 +214,8 @@ body {
     margin: 20px 0;
     padding: 18px 0;
     border-bottom: 1px dashed rgb(200, 184, 184);
+    text-shadow: 1px 1px #bfbbbb; 
+
 }
 
 .city:last-child {
@@ -223,19 +226,21 @@ body {
     opacity: 0.6;
     font-weight: bold;
     font-size: smaller;
+    text-decoration:underline;
 }
 
 .time {
     font-size:40px;
     font-weight: bold;
+    text-shadow: 1.5px 1.5px #bfbbbb;
 }
 .time small {
     font-size: 18px;
     vertical-align: middle;
     line-height: 34px;
+    text-shadow: 1px 1px #bfbbbb;
+    text-decoration:underline;
 }
-
-
 select {
     display: block;
     width: 100%;
