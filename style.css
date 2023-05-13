@@ -183,7 +183,7 @@ body {
 
 
 .container {
-    max-width: 500px;
+    max-width: 400px;
     background-color: rgb(245, 245, 245);
     margin: 60px auto;
     padding: 30px;
@@ -235,12 +235,12 @@ body {
 }
 
 .time {
-    font-size:38px;
+    font-size:36px;
     font-weight: bold;
     text-shadow: 1.5px 1.5px #bfbbbb;
 }
 .time small {
-    font-size: 18px;
+    font-size: 14px;
     vertical-align: middle;
     line-height: 34px;
     text-shadow: 1px 1px #bfbbbb;

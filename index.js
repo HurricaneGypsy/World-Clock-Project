@@ -58,7 +58,7 @@ citiesElement.innerHTML = `
            "h:mm:ss"
          )} <small>${cityTime.format("A")}</small></div> 
        </div>
-       <a href="/">Back to main page..</a>
+       <a href="/">Back to home page..</a>
 `;
 }
 
