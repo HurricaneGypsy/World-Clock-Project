@@ -7,11 +7,12 @@ body {
 
 .star {
   position: absolute;
-  width: 5px;
-  height: 10px;
+  width: 4px;
+  height: 8px;
   background-color: white;
-  border-radius:none;
-  animation: shooting-star 3s ease-out infinite;
+  
+  border-radius: 50px;
+  animation: shooting-star 2s ease-out infinite;
 }
 
  .star:nth-child(1) {
@@ -29,7 +30,7 @@ body {
     }
 
     .star:nth-child(3) {
-      top: 50px;
+      top: 20px;
       right: 100px;
         animation-delay: 0;
     animation-duration: 2s;
@@ -67,7 +68,7 @@ body {
       top: 150px;
       right: 200px;
         animation-delay: 0.5;
-    animation-duration: 1.5s;
+    animation-duration: 3s;
     
     }
 
@@ -75,14 +76,14 @@ body {
       top: 50px;
       right: 300px;
         animation-delay: 0;
-    animation-duration: 1s;
+    animation-duration: 5s;
     }
 
     .star:nth-child(10) {
       top: 700px;
       right: 30px;
         animation-delay: 0.2;
-    animation-duration: 1.5s;
+    animation-duration: 4s;
     }
     .star:nth-child(10) {
       top: 700px;
@@ -114,18 +115,59 @@ body {
 
     .star:nth-child(14) {
       top: 700px;
-      left: 50px;
+      left: 300px;
         animation-delay: 0;
     animation-duration: 2s;
     }
+  
+.star:nth-child(15) {
+      top: 400px;
+      right: 100px;
+        animation-delay: 0;
+    animation-duration: 2s;
+    }
+
     .star:nth-child(15) {
-      top: 700px;
-      right: 380px;
-        animation-delay: 0.2;
+      top: 400px;
+      right: 100px;
+        animation-delay: 0;
+    animation-duration: 2s;
+    }
+
+    .star:nth-child(16) {
+      top: 75px;
+      right: 250px;
+        animation-delay: 0.5;
     animation-duration: 1s;
     }
 
+    .star:nth-child(17) {
+      top: 250px;
+      left: 75px;
+        animation-delay: 0;
+    animation-duration: 3s;
+    }
 
+    .star:nth-child(18) {
+      top: 700px;
+      right: 150px;
+        animation-delay: 0;
+    animation-duration: 2s;
+    }
+
+    .star:nth-child(19) {
+      top: 25px;
+      left: 150px;
+        animation-delay: 0;
+    animation-duration: 1s;
+    }
+
+    .star:nth-child(20) {
+      top: 500px;
+      right: 350px;
+        animation-delay: 0;
+    animation-duration: 2s;
+    }
     
 
 @keyframes shooting-star {
