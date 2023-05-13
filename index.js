@@ -54,10 +54,14 @@ citiesElement.innerHTML = `
         <h2>${cityName}</h2>
        <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
        </div>
-         <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format("A")}</div> 
+         <div class="time">${cityTime.format(
+           "h:mm:ss"
+         )} <small>${cityTime.format("A")}</small></div> 
        </div>
+       <a href="/">Back to main..</a>
 `;
 }
+
 
 
 updateTime();

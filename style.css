@@ -255,6 +255,10 @@ select {
      font-weight: 600;
 }
 
+a {
+  color: rgb(10, 94, 94);
+}
+
 footer {
   text-align: center;
   margin: 0 auto;
