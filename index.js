@@ -37,6 +37,19 @@ function updateTime() {
       "h:mm:ss [<small>]A[</small>]"
     );
   }
+
+  // Hong Kong
+  let hongKongElement = document.querySelector("#hong-kong");
+  if (hongKongElement) {
+    let hongKongDateElement = hongKongElement.querySelector(".date");
+    let hongKongTimeElement = hongKongElement.querySelector(".time");
+    hongKongTime = moment().tz("Asia/Hong_Kong");
+
+    hongKongDateElement.innerHTML = hongKongTime.format("MMMM Do YYYY");
+    hongKongTimeElement.innerHTML = hongKongTime.format(
+      "h:mm:ss [<small>]A[</small>]"
+    );
+  }
 }
 
 function updateCity (event) {
