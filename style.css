@@ -2,7 +2,9 @@ body {
     background-color: rgb(18, 214, 240);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image:url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/815/original/globe-706985_960_720.jpg?1684054782);
+
     background-position: center bottom;
+     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
 }
