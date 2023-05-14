@@ -1,7 +1,9 @@
 body {
     background-color: rgb(207, 205, 205);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image:url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/627/original/alexander-andrews-yOIT88xWkbg-unsplash.jpg?1683921645);
+    background-image:url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/815/original/globe-706985_960_720.jpg?1684054782);
+     background-repeat: no-repeat;
+     background-size: cover;
     overflow: hidden;
 }
 
