@@ -51,18 +51,7 @@ function updateTime() {
     );
   }
 
-  // Havana
-  let havanaElement = document.querySelector("#havana");
-  if (havanaElement) {
-    let havanaDateElement = havanaElement.querySelector(".date");
-    let havanaTimeElement = havanaElement.querySelector(".time");
-    havanaTime = moment().tz("America/Havana");
-
-    havanaDateElement.innerHTML = havanaTime.format("MMMM Do YYYY");
-    havanaTimeElement.innerHTML = havanaTime.format(
-      "h:mm:ss [<small>]A[</small>]"
-    );
-  }
+  
 }
 
 function updateCity (event) {
